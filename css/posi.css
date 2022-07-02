@@ -1,0 +1,126 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  display: grid;
+  justify-items: center;
+}
+span {
+  text-decoration: solid;
+  font-size: 20px;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.fd1 {
+  background: #fff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 20vh;
+  place-content: center;
+}
+
+.item {
+  background: #ffff;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+}
+
+.mao {
+  font-size: 30px;
+  background: #fff;
+}
+
+.bt {
+  color: #fff;
+  background: #e21;
+  justify-self: end;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 15px 25px;
+}
+
+.bike {
+  height: auto;
+  width: auto;
+}
+
+.vantagem {
+  color: #c6c6c6;
+  font-size: 30px;
+  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+}
+
+.t {
+  margin-right: 20px;
+}
+
+.txvantagem {
+  background: #fff;
+  padding: 40px;
+  text-align: left;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  gap: 40px;
+  align-content: start;
+  align-items: center;
+  justify-items: start;
+}
+
+.img {
+  display: grid;
+  place-self: start end;
+}
+
+.foot {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
